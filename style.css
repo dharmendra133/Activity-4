@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mainbox{
+    border:8px solid rgb(236, 230, 230);
+    width:40%;
+}
+/* for background color */
+.box{
+    margin:0px 0px;
+    background-color:rgb(110, 108, 108);
+    padding: 10px;
+    border: 25px solid black;
+}
+label{
+    display: inline-block;
+    text-align: left;
+    width:40%;
+    font-size: 1.2rem;
+    color:white;
+}
+input,select{
+    margin-left:10px;
+    width:52%;
+    height:28px;
+    background-color: rgb(237, 247, 147);
+}
+.btn{
+    height:36.5px;
+    width:95px;
+    margin-left:2px;
+    border-radius: 0.1rem;
+    border:2px solid black;
+    box-shadow:1px solid darkgrey;
+    background-color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    
+}
